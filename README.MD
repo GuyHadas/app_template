@@ -40,7 +40,9 @@
 * webpack --watch
 
 ## Routes
-* root to: 'static_pages#root'
+```
+  root to: 'static_pages#root'
+```
 
 ## PostgreSQL
 * rake db:create
