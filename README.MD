@@ -60,8 +60,9 @@ end
 
 * create static_pages folder
 * create root.html file
- ```ruby
-<div id="root"></div>
+
+ ```
+ <div id="root"></div>
 ```
 
 ## Git
