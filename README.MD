@@ -24,6 +24,15 @@
 * Frontend folder
 * [appname].jsx (entry file)
 * fluxes (Flux Entry Setup Snippet)
+* folders
+  * actions
+  * components
+  * constants
+  * dispatcher
+  * misc
+  * stores
+  * util
+
 
 ## Webpack
 * webpack.config.js
@@ -51,8 +60,9 @@ end
 
 * create static_pages folder
 * create root.html file
-* <div id="root"></div>
-
+ ```html
+<div id="root"></div>
+```
 
 ## Git
 * git init
