@@ -1,11 +1,12 @@
+## App Setup
 * rails new _____ --skip-turbolinks --database=postgresql
 
-# Gemfile
+## Gemfile
 * gem 'bcrypt'
 * inside :development, :test: 'better_errors', 'binding_of_caller', 'pry-rails', 'annotate'
 * bundle install
 
-# NPM
+## NPM
 * npm init --yes
 * npm install --save
   * webpack
@@ -18,24 +19,24 @@
   * babel-preset-react
 
 
-# Frontend
+## Frontend
 
 * Frontend folder
 * [appname].jsx (entry file)
 * fluxes (Flux Entry Setup Snippet)
 
-# Webpack
+## Webpack
 * webpack.config.js
 * webpack (Webpack Setup Snippet)
 * webpack --watch
 
-# Routes
+## Routes
 * root to: 'static_pages#root'
 
-# PostgreSQL
+## PostgreSQL
 * rake db:create
 
-# Controller
+## Controller
 
 * rails g controller StaticPages
 
@@ -46,14 +47,14 @@ class StaticPagesController < ApplicationController
 end
 ```
 
-# Views
+## Views
 
 * create static_pages folder
 * create root.html file
 * <div id="root"></div>
 
 
-# Git
+## Git
 * git init
 * .gitignore --> node_modules/, bundle.js, bundle.js.map
 * add -A, commit -m "initial commit"
