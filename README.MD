@@ -60,7 +60,7 @@ end
 
 * create static_pages folder
 * create root.html file
- ```html
+ ```ruby
 <div id="root"></div>
 ```
 
